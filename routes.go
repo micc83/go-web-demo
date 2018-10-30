@@ -7,7 +7,7 @@ func declareRoutes(app *iris.Application) {
 		ctx.HTML("<h1>Ciao amico tuo</h1>")
 	})
 
-	app.Get("/ping", func(ctx iris.Context) {
+	app.Get("/pang", func(ctx iris.Context) {
 		ctx.WriteString("pong")
 	})
 
